@@ -72,8 +72,9 @@
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="destination.html" class="nav-item nav-link">Destinations</a>
+                        <a href="resort.html" class="nav-item nav-link">Resorts</a>
 
-                        <a href="contact.html" class="nav-item nav-link">Chat with Us</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -332,27 +333,37 @@
                 <h1>Tours & Travel Services</h1>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+
+                <a class="col-lg-4 col-md-6 mb-4" style="text-decoration: none; cursor: pointer;" href="service.html">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-route mx-auto mb-4"></i>
                         <h5 class="mb-2">Cab Service</h5>
                         <p class="m-0">Explore destinations with our reliable and comfortable cab services available round the clock.</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                </a>
+                <a class="col-lg-4 col-md-6 mb-4" style="text-decoration: none; cursor: pointer;" >
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
                         <h5 class="mb-2">Guide Service</h5>
                         <p class="m-0">Get expert guidance to make the most of your travel experience with our professional guides.</p>
                     </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 mb-4">
+                </a>
+                <a class="col-lg-4 col-md-6 mb-4" style="text-decoration: none; cursor: pointer;" href="resort.html">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
-                        <h5 class="mb-2">Hotel Booking</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                        <h5 class="mb-2">Resort Booking</h5>
+                        <p class="m-0">Experience luxury and comfort with our select resorts, featuring serene locations and premium amenities.</p>
                     </div>
-                </div> -->
+                </a>
+                
+                <a class="col-lg-4 col-md-6 mb-4" href="service.html#pickupAndDrop" style="text-decoration: none; cursor: pointer;">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-car mx-auto mb-4"></i>
+                        <h5 class="mb-2">Pick and Drop</h5>
+                        <p class="m-0">Reliable pick and drop service for your convenience. We ensure timely transportation to and from your destination.</p>
+                    </div>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -573,7 +584,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Kalpetta, Wayanad, Kerala</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Wayanad, Kerala</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+91 8547 6490 22</p>
                 <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                
@@ -624,7 +635,7 @@
 
         if (name && email && destination !== "Select a destination") {
             const message = `Hello, I am interested in the Wayanad honeymoon package. Here are my details:\n\nName: ${name}\nEmail: ${email}\nDestination: ${destination}`;
-            const whatsappURL = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+            const whatsappURL = `https://wa.me/7560991122?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, '_blank');
         } else {
             alert('Please fill in all the fields!');
