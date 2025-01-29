@@ -192,6 +192,65 @@
             width: 400px;
             height: auto;
         }
+
+        .testimonial-carousel img {
+            width: 400px;
+            height: auto;
+        }
+
+        .resort-div {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .resort-div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .resort-img-div {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .resort-img-div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .resort-div:hover .resort-img-div img {
+            transform: scale(1.05);
+        }
+
+        .testimonial-text {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .resort-desc-div {
+            display: inline-block;
+            background: linear-gradient(135deg, #28a745, #218838);
+            color: #fff;
+            padding: 12px 20px;
+            font-weight: 700;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.3s ease-in-out;
+            width: 100%;
+            text-align: center;
+        }
+
+        .resort-desc-div:hover {
+            background: linear-gradient(135deg, #218838, #1e7e34);
+        }
     </style>
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
@@ -201,51 +260,108 @@
                 <h1>Best Resorts</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
-                <div class="text-center pb-4">
-                    <div style="width: 350px; height: 250px; ">
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
                         <img loading="lazy" class="img-fluid" src="img/vytheri.webp"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Vythiri Resort: Experience a serene stay surrounded by lush greenery and flowing
-                            streams.</p>
-                        <h5 class="text-truncate">Vythiri Resort</h5>
-                        <span>Eco-Friendly Resort</span>
+                    <div class="testimonial-text bg-white">
+
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
                     </div>
                 </div>
-                <div class="text-center">
-                    <div style="width: 350px; height: 250px; margin: 0 auto; overflow: hidden;">
+
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
                         <img loading="lazy" class="img-fluid" src="img/banasura-resort.webp"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Banasura Hill Resort: Stay at India’s largest mud resort with stunning hill
-                            views.</p>
-                        <h5 class="text-truncate">Banasura Hill Resort</h5>
-                        <span>Luxury Resort</span>
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
                     </div>
                 </div>
-                <div class="text-center">
-                    <div style="width: 350px; height: 250px; margin: 0 auto; overflow: hidden;">
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
                         <img loading="lazy" class="img-fluid" src="img/windflower.jpg"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">The Windflower Resort: Enjoy luxury amidst sprawling tea <br>plantations.</p>
-                        <h5 class="text-truncate">The Windflower Resort</h5>
-                        <span>Premium Resort</span>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
                     </div>
                 </div>
-                <div class="text-center">
-                    <div style="width: 350px; height: 250px; margin: 0 auto; overflow: hidden;">
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
+                        <img loading="lazy" class="img-fluid" src="img/resort1.jpg"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
+                        <img loading="lazy" class="img-fluid" src="img/resort2.webp"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
+                        <img loading="lazy" class="img-fluid" src="img/Wayanad-Resorts.jpg"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
+                        <img loading="lazy" class="img-fluid" src="img/vythiri-wayanad-1654598862-lb.jpg"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center resort-div">
+                    <div class="resort-img-div">
                         <img loading="lazy" class="img-fluid" src="img/sterling-wayanad.jpg"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Sterling Wayanad: Perfect for families seeking modern amenities and natural
-                            beauty.</p>
-                        <h5 class="text-truncate">Sterling Wayanad</h5>
-                        <span>Family Resort</span>
+
+                    <div class="testimonial-text bg-white">
+                        <a href="https://wa.me/917560991122?text=Hi, I need assistance with resort booking."
+                            class="btn btn-primary mt-1 resort-desc-div" target="_blank">
+                            For Booking
+                        </a>
                     </div>
                 </div>
             </div>
