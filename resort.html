@@ -180,8 +180,10 @@
             - Return Date: ${returnDate}
             - Duration: ${duration}`;
 
-            const whatsappURL = `https://wa.me/?text=${encodeURIComponent(message)}`;
+            const phoneNumber = "917560991122";
+            const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, "_blank");
+
         });
     </script>
 
